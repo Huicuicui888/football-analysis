@@ -1,0 +1,21 @@
+football-analysis/
+├── backend/
+│   ├── server.js
+│   ├── crawler.js
+│   ├── db.js
+│   ├── analysis.js
+│   ├── tasks.js
+│   ├── .env
+│   ├── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── components/
+│   │        ├── MatchTable.js
+│   │        ├── Charts.js
+│   │        └── AnalysisControls.js
+│   ├── public/
+│   │   └── index.html
+│   ├── Dockerfile
+├── docker-compose.yml
